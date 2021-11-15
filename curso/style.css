@@ -1,3 +1,26 @@
 li {
-    appearance: none;
+    list-style: none;
 }
+
+a:link, a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:30px;
+    color: black;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: block;
+    text-align: center;
+    margin-top: 1px;
+    width: 200px;
+}
+
+a:hover{
+    background-color: white;
+}
+
+li:nth-child(2) >a:hover{
+    background-color: red;
+}
+
+

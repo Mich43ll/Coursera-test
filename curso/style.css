@@ -39,5 +39,15 @@ li:nth-child(2) >a:hover{
     overflow: auto;
 
 }
+#bg{
+    width: 500px;
+    height: 500px;
+    background-image: url(Yin_yang.png);
+    background-repeat: no-repeat;
+    background-color: yellowgreen;
+    background-position: center ;
+
+
+}
 
 

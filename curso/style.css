@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Reajusta el tamaño de la caja al tamaño del witdh*/
+}
+
 li {
     list-style: none;
 }
@@ -21,6 +27,17 @@ a:hover{
 
 li:nth-child(2) >a:hover{
     background-color: red;
+}
+
+#thebox {
+    margin: 40px;
+    padding: 20px;
+    border: 3px solid black;
+    background-color: rgb(207, 204, 204);
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+
 }
 
 

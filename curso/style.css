@@ -1,13 +1,15 @@
+/*Select all the items in the document*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box; /*Reajusta el tamaño de la caja al tamaño del witdh*/
+    
 }
 
 li {
     list-style: none;
 }
-
+/*Pseudo-selectors*/
 a:link, a:visited {
     text-decoration: none;
     text-transform: uppercase;
@@ -28,7 +30,7 @@ a:hover{
 li:nth-child(2) >a:hover{
     background-color: red;
 }
-
+/*Uso de overflow*/
 #thebox {
     margin: 40px;
     padding: 20px;
@@ -39,6 +41,11 @@ li:nth-child(2) >a:hover{
     overflow: auto;
 
 }
+/*Background properties*/
+.property__bg {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
 #bg{
     width: 500px;
     height: 500px;
@@ -47,7 +54,70 @@ li:nth-child(2) >a:hover{
     background-color: yellowgreen;
     background-position: center ;
 
-
+}
+/*Float and clear*/
+.container {
+    background-color: aquamarine;
+    height: 400px;
+}
+p {
+    margin-top: 10px;
 }
 
+.p1 {
+    width: 80px;
+    height: 100px;
+    background-color: black;
+    float: right;
+}
+.p2 {
+    width: 80px;
+    height: 80px;
+    background-color: brown;
+    float: left;
+}
+.p3 {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    clear: both;
+}
+.p4 {
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+}
+/*Position relative and absolute*/
+#container {
+    background-color: aquamarine;
+    height: 400px;
+    position: relative;
+}
+
+#p1 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#p2 {
+    width: 80px;
+    height: 80px;
+    background-color: brown;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#p3 {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+}
+#p4 {
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+}
 
